@@ -69,7 +69,6 @@ int main(void) {
 	int tick = 0;
 	hideCursor();
 	int updated = 1;
-	int drawn = 0;
  	while(1) {
 		timer += 1;
  		if (timer >= 100000000 && updated) {
